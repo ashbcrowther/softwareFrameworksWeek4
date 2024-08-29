@@ -27,11 +27,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 ## Commands used 
-ng new week4tut
+# Project Commands
 
-npm install bootstrap --save
+## Commands Used
 
-ng build
+### Angular (in Node)
+- `ng new [project-name]`: Creates a new Angular project.
+- `ng serve`: Runs the project locally on a development server.
+- `ng build`: Compiles the project into an output directory.
+- `ng generate component [component-name]`: Generates a new component.
+- `ng test`: Runs tests for the Angular application.
 
-ng serve
+### Npm (Installing Modules)
+- `npm install`: Installs all dependencies listed in `package.json`.
+- `npm install [package-name]`: Installs a specific package locally.
+- `npm install -g [package-name]`: Installs a package globally.
+- `npm update`: Updates all packages to their latest versions.
 
+### Git
+- `git init`: Initializes a new Git repository.
+- `git add .`: Stages all changes for the next commit.
+- `git commit -m "Commit message"`: Commits staged changes with a message.
+- `git push`: Pushes commits to the remote repository.
+- `git pull`: Fetches and merges changes from the remote repository.
